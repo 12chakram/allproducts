@@ -1,0 +1,281 @@
+/* global text */
+html, body, #wrap {
+	color: #444;
+}
+
+	/*page*/
+	html {
+		background-color: #f7f8f7;
+	}
+
+	
+/*headings*/
+h2,h3,h4,h5,h6 {
+	color: #7b7c7b;
+}
+	
+	h1 {
+		color: #85dc8b;
+	}
+	
+/*links*/
+a {
+	color: #a585dc;
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	a:visited {
+		color: #bb97fa;
+	}
+
+/* name */	
+#logo .name {
+	color: #fff;
+}
+
+/*navigation*/
+#nav ul li a {
+	color: #838d8e;
+}
+
+	#nav ul li a.hover {
+		color: #fff;
+	}
+	#nav ul li a.active {
+		border-top: 4px solid #fff;
+		color: #fff;
+	}
+		
+	#nav ul li a.active span {
+		display: none;
+	}
+	
+	#nav ul li a span {
+		color: #fff;
+	}
+	
+/*homepage roundabout project link*/
+#roundabout h3 a {
+	color: #838d8e;
+}
+
+	#roundabout h3 a:hover {
+		color: #a585dc;
+	}
+	
+/*global button (.btn) & pager buttons*/
+#portfolio ul.pager li a,	
+a.btn {
+	color: #fff;
+	background-color: #ccc;
+}
+
+	#portfolio ul.pager li a:hover,
+	a.btn:hover {
+		background-color: #838d8e;
+	}
+	
+	#portfolio ul.pager li a.active,
+	#portfolio ul.nav li a.active {
+		background-color: #a585dc;
+	}
+
+/*portfolio detail*/
+.portfolio-detail .main-image img {
+	outline: 1px solid #fff;
+}
+
+	/*sliding caption background*/
+	.portfolio-detail ul.items li a span.caption,
+	#portfolio ul.items li a span.caption  {
+		background: #838d8e;
+	}
+	
+	/*sliding caption text*/
+	.portfolio-detail ul.items li a span.text,
+	#portfolio ul.items li a span.text  {	
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+	}
+	
+/*testimonials*/
+#about .testimonials ul li {
+	border-top: 1px solid #aaa;
+}
+	/*quote*/
+	#about .testimonials blockquote p {
+		color: #4b7c4e;
+	}
+		/*author*/
+		#about .testimonials blockquote p span {
+			color: #7b7c7b
+		}
+
+/*button on services page*/
+#services .btn {
+	background-color: #a585dc;
+}
+	#services .btn:hover {
+			background-color: #444;
+		}
+
+/*tooltip baloons*/
+.tooltip {
+	color: #838d8e; 
+}
+	
+	
+/*blog styling*/		
+#blog .post .info {
+	color: #7b7c7b
+}
+	/*continue reading*/
+	#blog .post .more:hover {
+		background-color: #444;
+		color: #fff;
+	}
+	
+	/*headings*/
+	#blog .post h2 a,
+	#blog .post h3 a {
+		color: #444;
+	}
+
+	#blog .post h2 a:hover,
+	#blog .post h3 a:hover {
+		text-decoration: none;
+		border-bottom: 1px solid #444;
+	}	
+
+	/*images*/
+	#blog .post img  {
+		border: 1px solid #444;
+	}
+		
+		#blog .post img.full:hover {
+			border: 1px solid #a585dc;
+		}
+	
+	
+	/*previus/next (older/newer) posts*/
+	#blog .prevnext {
+		border-top: 1px dotted #838d8e;
+	}
+	
+		#blog .prevnext a {
+			color: #fff;	
+		}
+	
+/*blog sidebar*/
+#sidebar a {
+	color: #444;
+}
+
+	#sidebar a:hover {
+		color: #a585dc;
+		text-decoration: underline;
+	}
+
+/*sidebar search form*/
+#searchForm input {
+	color: #ccc;
+	border: 1px solid #838d8e;
+}
+		
+/*comments*/
+#comments .head {			
+	border-top: 1px solid #838d8e;
+	border-bottom: 1px solid #838d8e;
+}
+
+	#comments .comment .text .reply {
+		color: #fff;
+		background-color: #838d8e;
+	}
+			
+	#comments .comment .text .author {
+		border-bottom: 1px solid #ddd;
+	}
+	#comments .comment .text .date {
+		color: #aaa;
+	}
+	
+	
+	
+	/*post blockquote*/		
+	#blog .post blockquote {
+		background-color: #ddd;
+		}
+	
+	/*post pre*/		
+	#blog .post pre {
+		background-color: #ddd;
+		border: 1px solid #7b7c7b;
+		border-left: 4px solid #444;
+	}
+	
+	/*table*/
+	table {
+		border-color: #838d8e;
+	}		
+		table th {
+			background-color: #838d8e;
+			color: #fff;
+		}	
+		table td,
+		table th {
+    		border-color: #838d8e;
+    	}
+
+/* forms */
+form label {
+	color: #838d8e;
+}
+
+	form label em {
+		color: #ea6b48;
+	}
+
+	/*validation error*/
+	form label.error {
+		color: #ea6b48;
+	}
+		
+	form textarea,
+	form input {
+		background-color:  #fff;
+		border: 1px solid #838d8e;
+	}
+	
+		form textarea:focus,
+		form input:focus {			
+			color: #444;
+			border-color: #444;
+			background-color: #ffe;
+		}		
+		
+	form input.submit {
+		background-color: #a585dc;
+		color: #fff;
+		border: none;
+	}
+	form input.submit:hover {
+		background-color: #444;
+	}
+		
+
+	/* ajaxified form:
+	2 divs for display success or error message */
+	#contactform div.error,
+	#contactform div.success {
+		background-color: #85dc8b;
+		color: #fff;
+	}
+		#contactform div.error {
+			background-color: #ea6b48;
+		}
+		
